@@ -12,12 +12,18 @@ section.page-section h2 {
 	margin-bottom: .5rem;
 }
 
+@media ( min-width : 992px) {
+	section#overview {
+		height: 100vh;
+	}
+}
+
 section#overview h2 {
 	font-size: 1.85rem !important;
 }
 
 section#profile {
-	background: url("../../assets/images/bg-masthead.jpg");
+	background: url("/assets/images/bg-masthead.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -28,7 +34,7 @@ section#profile p {
 }
 
 section#team {
-	background: url("../../assets/images/bg-team.png");
+	background: url("/assets/images/bg-team.png");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
